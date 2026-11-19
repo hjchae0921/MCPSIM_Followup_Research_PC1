@@ -1,0 +1,46 @@
+{
+  "mesh": {
+    "path": "frozen_inputs/cases/04_I_beam/model.msh",
+    "coordinate_unit": "mm",
+    "target_coordinate_unit": "mm",
+    "dim": 3,
+    "regions": {
+      "End_Left": {
+        "dim": 2,
+        "tags": [
+          2
+        ]
+      },
+      "End_Right": {
+        "dim": 2,
+        "tags": [
+          3
+        ]
+      },
+      "Top_Surface": {
+        "dim": 2,
+        "tags": [
+          4
+        ]
+      },
+      "Bottom_Surface": {
+        "dim": 2,
+        "tags": [
+          5
+        ]
+      },
+      "Side_Surface": {
+        "dim": 2,
+        "tags": [
+          6
+        ]
+      },
+      "Beam": {
+        "dim": 3,
+        "tags": [
+          1
+        ]
+      }
+    }
+  }
+}

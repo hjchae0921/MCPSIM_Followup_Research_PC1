@@ -1,0 +1,26 @@
+{
+  "campaign": "three_arm_state_free_actual_start_20261119",
+  "station": "pc1",
+  "models": [
+    {
+      "folder": "Claude Haiku 4.5",
+      "id": "anthropic/claude-haiku-4.5",
+      "transport": "openrouter",
+      "omit_temperature": true
+    },
+    {
+      "folder": "Gemma 4 31B",
+      "id": "google/gemma-4-31b-it",
+      "transport": "openrouter"
+    }
+  ],
+  "repeats": 15,
+  "physics": 6,
+  "arms": [
+    "Card_Only",
+    "Document_Top3",
+    "KG"
+  ],
+  "planned_workflows": 540,
+  "workflows_per_model": 270
+}

@@ -1,0 +1,25 @@
+outputs/
+__pycache__/
+*.py[cod]
+*.log
+*.zip
+.env
+.env.*
+.openai_key
+.openrouter_key
+.venv/
+core
+core.*
+
+# Local credentials and detached-launch state
+openrouter_api_key.txt
+openai_api.txt
+.env
+.env.*
+launcher.lock
+
+qwenstudio_apikey.txt
+
+*_apikey.txt
+
+*_api_key.txt

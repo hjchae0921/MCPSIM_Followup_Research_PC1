@@ -1,0 +1,28 @@
+{
+  "mesh": {
+    "path": "frozen_inputs/cases/01_heatsink/model.msh",
+    "coordinate_unit": "mm",
+    "target_coordinate_unit": "mm",
+    "dim": 3,
+    "regions": {
+      "Base_Bottom": {
+        "dim": 2,
+        "tags": [
+          2
+        ]
+      },
+      "Exposed_Surface": {
+        "dim": 2,
+        "tags": [
+          3
+        ]
+      },
+      "Solid": {
+        "dim": 3,
+        "tags": [
+          1
+        ]
+      }
+    }
+  }
+}
